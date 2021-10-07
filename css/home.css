@@ -1,0 +1,212 @@
+/*
+*/
+#div_body_ad{
+	position:relative;
+	width:800px;
+	height:388px;
+	margin:0 auto
+}
+#frame_corners{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:40
+}
+#frame_shadow{
+	position:absolute;
+	top:340px;
+	left:0;
+	z-index:20
+}
+#frame_light{
+	position:absolute;
+	top:340px;
+	left:0;
+	z-index:10
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:static;
+	z-index:50;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:800px;
+	height:340px;
+	background-color:#151515;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	overflow:hidden;
+	display:none;
+	z-index:0
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:800px;
+	height:340px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:25px auto 0;
+	width:132px;
+	position:relative;
+	z-index:900
+	
+}
+
+.pagination li {
+	float:left;
+	margin:0 4px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:20px;
+	height:0;
+	padding-top:20px;
+	background-image:url(../img/home/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 20px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	top:0px;
+	left:0;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:300px;
+	height:340px;
+	border-right:1px solid #000;
+	display:table
+}
+
+.caption_right {
+	z-index:500;
+	position:absolute;
+	top:0px;
+	right:0;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:300px;
+	height:340px;
+	border-left:1px solid #000;
+	display:table
+}
+
+.caption_align{
+	#position: absolute;
+	#top: 50%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.caption_text{
+	#position: relative; 
+	#top: -50%;
+	font:12px arial;
+	color:#fff;
+	padding:0px 0px 20px 0px;
+}
+
+#caption_title {
+	font:bold 20px arial;
+	color:#ff8000
+}
+
+/*
+div: body
+*/
+#div_body{
+	margin:20px auto 25px;
+}
+
+#div_body_3{
+	width:800px;
+	margin:0 auto;
+	position:relative;
+}
+#left_pannel{
+	width:164px;
+	background:url('../img/home/pattern_leafy.png') repeat-y;
+	border:3px solid #343434;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	float:left;
+	position:absolute;
+	top:0;bottom:0;left:0
+}
+#event_projects{
+	width:140px;
+	position:relative;
+	font:bold 20px arial;
+	text-shadow: 0 -2px #151515, 2px 0 #151515, 0 2px #151515, -2px 0 #151515, 2px 2px #151515, 2px -2px #151515, -2px 2px #151515, -2px -2px #151515;
+	color:#fff;
+	text-align:right;
+	margin:7px auto
+}
+
+#event_list{
+	float:left;
+	position:relative;
+	margin-left:170px;
+	padding:0 0 0 25px;
+	width:605px
+}
+	.event_title{
+		font:20px arial;
+		padding:0 0 10px;
+		margin:10px 0 10px;
+		border-bottom:3px solid #343434;
+		color:#fff
+	}
+	.event_caption{
+		text-align:justify;
+		margin:0 0 10px;
+		font:12px arial;
+		color:#CCCCCC
+	}
+	.event_poster{
+		width:599px;
+		border:3px solid #343434;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		border-radius:15px;
+		overflow:hidden
+	}

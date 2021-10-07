@@ -1,0 +1,63 @@
+.cell_1{
+width:130px
+}
+.cell_3{
+width:465px
+}
+#sel_event_type{
+width:404px
+}
+#sel_month{
+width:150px
+}
+#sel_day{
+width:125px
+}
+#sel_year{
+width:125px
+}
+#txt_event_name,#txt_bride,#txt_groom,#txt_celeb,#txt_church_loc,#txt_rec_loc,#txt_loc,#txt_cont_name,#txt_email,#txt_mobile{
+width:400px
+}
+#txt_note{
+width:400px;
+height:8em;
+resize:none;
+overflow-y:scroll;
+overflow:-moz-scrollbars-vertical
+}
+.td_note{
+padding-top:5px;
+}
+.right{
+text-align:right
+}
+
+#btn_send {
+	color:#ffffff;
+	width:90px;
+	padding:3px 5px;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7ebe45), color-stop(1, #599e18) );
+	background:-moz-linear-gradient( center top, #7ebe45 5%, #599e18 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ebe45', endColorstr='#599e18');
+	border:1px solid #9cda65 ;
+	margin: 0px 28px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+#btn_send:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #599e18), color-stop(1, #7ebe45) );
+	background:-moz-linear-gradient( center top, #599e18 5%, #7ebe45 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599e18', endColorstr='#7ebe45');
+}
+#btn_send:active {
+	position:relative;
+	top:1px;
+}
+#btn_send[disabled]{
+	color:#fff;
+	background: #A4A4A4;
+	border:1px solid #A4A4A4 ;
+	
+}

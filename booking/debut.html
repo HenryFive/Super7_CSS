@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Booking - SuperSevenStudio</title>
+	<link rel="stylesheet" type="text/css" href="../css/global.css" />
+	<link rel="stylesheet" type="text/css" href="../css/booking.css" />
+</head>
+<body>
+	<div id="div_head">
+		<div id="head_banner">
+			<img src="../img/head_banner.jpg">
+		</div>
+		<div id="nav_spacer_left">
+			<img src="../img/nav_spacer_left.jpg">
+		</div>
+		<div id="navl_home" class="navl">
+			<a href="../index.html">home</a>
+		</div>
+		<div id="navl_about_us" class="navl">
+			<a href="../about_us.html">about us</a>
+		</div>
+		<div id="navl_services" class="navl">
+			<a href="../services.html">services</a>
+		</div>
+		<div id="navl_photos" class="navl">
+			<a href=#>photos</a>
+		</div>
+		<div id="navl_videos" class="navl">
+			<a href=#>videos</a>
+		</div>
+		<div id="navl_booking_tab" class="navl">
+			booking
+		</div>
+		<div id="navl_contact_us" class="navl">
+			<a href="../contact_us.html">contact us</a>
+		</div>
+	</div>
+	
+	<div id="div_hr_top">
+	</div>
+	
+	<div class="div_body">
+		<font class="body_heading">Your Special Day</font>
+		<br><br>
+		We will contact you the next office day after sending us this form:
+		<br><br>
+		<table>
+			<tr>
+				<td class="cell_1">Event</td>
+				<td>:</td>
+				<td class="cell_3" align="center">
+					<select name="sel_event_type" id="sel_event_type" onChange="location.href=this.options[this.selectedIndex].value;">
+						<option value="step_2" DISABLED ><font color=gray>Select a type to proceed</font></option>
+						<option value="wedding.html" >Wedding</option>
+						<option value="debut.html" SELECTED>Debut Celebration</option>
+						<option value="other.html" >Other Event</option>
+					</select></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Date of Event</td>
+				<td>:</td>
+				<td align="center">
+					<select name="sel_month" id="sel_month">
+						<option value="0" DISABLED SELECTED><font color=gray>Month</font></option>
+						<option value="1" >January</option>
+						<option value="2" >February</option>
+						<option value="3" >March</option>
+						<option value="4" >April</option>
+						<option value="5" >May</option>
+						<option value="6" >June</option>
+						<option value="7" >July</option>
+						<option value="8" >August</option>
+						<option value="9" >September</option>
+						<option value="10" >October</option>
+						<option value="11" >November</option>
+						<option value="12" >December</option>
+					</select>
+					<select name="sel_day" id="sel_day" class="right">
+						<option value="0" DISABLED SELECTED><font color=gray>Day</font></option>
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+						<option value="15" >15</option>
+						<option value="16" >16</option>
+						<option value="17" >17</option>
+						<option value="18" >18</option>
+						<option value="19" >19</option>
+						<option value="20" >20</option>
+						<option value="21" >21</option>
+						<option value="22" >22</option>
+						<option value="23" >23</option>
+						<option value="24" >24</option>
+						<option value="25" >25</option>
+						<option value="26" >26</option>
+						<option value="27" >27</option>
+						<option value="28" >28</option>
+						<option value="29" >29</option>
+						<option value="30" >30</option>
+						<option value="31" >31</option>
+					</select>
+					<select name="sel_year" id="sel_year" class="right">
+						<option value="0" DISABLED SELECTED><font color=gray>Year</font></option>
+						<option value="2012" >2012</option>
+						<option value="2013" >2013</option>
+						<option value="2014" >2014</option>
+						<option value="2015" >2015</option>
+						<option value="2016" >2016</option>
+						<option value="2017" >2017</option>
+						<option value="2018" >2018</option>
+						<option value="2019" >2019</option>
+						<option value="2020" >2020</option>
+						<option value="2021" >2021</option>
+						<option value="2022" >2022</option>
+						<option value="2023" >2023</option>
+						<option value="2024" >2024</option>
+						<option value="2025" >2025</option>
+					</select>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Celebrant's Name</td>
+				<td>:</td>
+				<td align="center"><input type=text name="txt_celeb" id="txt_celeb"></td>
+			</tr>
+			<tr>
+				<td>Event Location</td>
+				<td>:</td>
+				<td align="center"><input type=text name="txt_loc" id="txt_loc"></td>
+			</tr>
+			<tr>
+				<td>Contact Person</td>
+				<td>:</td>
+				<td align="center"><input type=text name="txt_cont_name" id="txt_cont_name"></td>
+			</tr>
+			<tr>
+				<td>E-mail Address</td>
+				<td>:</td>
+				<td align="center"><input type=text name="txt_email" id="txt_email"></td>
+			</tr>
+			<tr>
+				<td>Mobile Number</td>
+				<td>:</td>
+				<td align="center"><input type=text name="txt_mobile" id="txt_mobile"></td>
+			</tr>
+			<tr>
+				<td valign="top" class="td_note">Note</td>
+				<td valign="top" class="td_note">:</td>
+				<td align="center"><textarea name="txt_note" id="txt_note"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td align=right><button type=submit name="btn_send" id="btn_send">Send</button></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="div_foot">
+		<div id="foot_text">
+			<a href="../index.html" class="foot_links">Home</a> | 
+			<a href="../about_us.html" class="foot_links">About Us</a> | 
+			<a href="../services.html" class="foot_links">Services</a> | 
+			<a href=# class="foot_links">Photos</a> | 
+			<a href=# class="foot_links">Videos</a> | 
+			Booking | 
+			<a href="../contact_us.html" class="foot_links">Contact Us</a> 
+			<br> Copyright © 2012 <font color="#fff">SuperSeven</font><font color="#7ebe45">Studio</font> All Rights Reserved.
+		</div>
+	</div>
+</body>
+</html>
